@@ -1,0 +1,398 @@
+header {
+    background-image: url(image-hero.jpg);
+    height: 600px;
+    width: 94%;
+    margin: 0 3%;
+}
+
+.top {
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo1 {
+    padding-top: 20px;
+
+}
+
+nav {
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    border: white solid 2px;
+    width: 40%;
+    height: 230px;
+    padding: 30px;
+    font-weight: 200;
+    margin-top: 6%;
+    margin-left: 14%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.layer2 {
+    margin: 0 13%;
+    height: 600px;
+}
+
+.vrguy {
+    z-index: 0;
+}
+
+.leader {
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 50%;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    bottom: 330px;
+    left: 50%;
+    padding-left: 8%;
+    padding-top: 30px;
+    height: 350px;
+    box-sizing: border-box;
+
+}
+
+.leader h2 {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 200;
+    padding-top: 30px;
+}
+
+.leader p {
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 20px;
+}
+
+main {
+    height: 1200px;
+    margin: 0 13%;
+}
+
+.creations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.creations h2 {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+button {
+    margin-top: 30px;
+    text-transform: uppercase;
+    background-color: white;
+    border: solid black 1px;
+    height: 30px;
+    width: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.gallery {
+    height: 50%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 4%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+}
+
+.gallery :hover {
+    opacity: .5;
+}
+
+.gallery-1 {
+    background-image: url(image-deep-earth.jpg);
+}
+
+.gallery-2 {
+    background-image: url(image-night-arcade.jpg);
+}
+
+.gallery-3 {
+    background-image: url(image-soccer-team.jpg);
+}
+
+.gallery-4 {
+    background-image: url(image-grid.jpg);
+}
+
+.gallery-5 {
+    background-image: url(image-from-above.jpg);
+}
+
+.gallery-6 {
+    background-image: url(image-pocket-borealis.jpg);
+}
+
+.gallery-7 {
+    background-image: url(image-curiosity.jpg);
+}
+
+.gallery-8 {
+    background-image: url(images/image-fisheye.jpg);
+
+}
+
+.gallery-1,
+.gallery-2,
+.gallery-3,
+.gallery-4,
+.gallery-5,
+.gallery-6,
+.gallery-7,
+.gallery-8 {
+    width: 22%;
+    height: 450px;
+}
+
+.gallery-1 p,
+.gallery-2 p,
+.gallery-3 p,
+.gallery-4 p,
+.gallery-5 p,
+.gallery-6 p,
+.gallery-7 p,
+.gallery-8 p {
+    padding-top: 130%;
+    width: 70%;
+    padding-left: 15%;
+}
+
+.gallery-1 :hover,
+.gallery-2 :hover,
+.gallery-3 :hover,
+.gallery-4 :hover,
+.gallery-5 :hover,
+.gallery-6 :hover,
+.gallery-7 :hover,
+.gallery-8 :hover {
+    color: black;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-L {
+    margin-left: 10%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.icon2 {
+    padding-top: 40px;
+    margin-left: 5%;
+    transform: scale(.75);
+    height: 15px;
+}
+
+
+.links {
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+    gap: 15px;
+    margin-left: 20%;
+    font-size: 13px;
+}
+
+.footer-R {
+    margin-top: 40px;
+    margin-right: 10%;
+}
+
+.footer-R p {
+    color: gray;
+    font-size: 14px;
+}
+
+.logos2 {
+    padding-left: 38%;
+}
+
+.logos2 svg {
+    margin: 0 3px;
+}
+
+@media (max-width: 720px) {
+
+    * {
+        width: 95%;
+    }
+
+    header {
+        background-image: url(image-hero.jpg);
+        width: 105%;
+        margin: 2%;
+    }
+
+    h1 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 40px;
+        border: white solid 2px;
+        height: 200px;
+        padding: 30px;
+        font-weight: 200;
+        margin-top: 100px;
+        width: 60%;
+    }
+
+    .layer2 img {
+        align-items: center;
+        width: 100%;
+        position: relative;
+        left: -20px;
+
+    }
+
+    .leader {
+        padding-top: 0;
+        background-color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        border: solid 1px black;
+        width: 100%;
+        left: -40px;
+        top: 1px;
+    }
+
+    .leader h2,
+    .leader p {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .creations {
+        margin-top: 100px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        font-size: 30px;
+        text-align: left;
+        width: 100%;
+    }
+
+
+    .gallery-1,
+    .gallery-2,
+    .gallery-3,
+    .gallery-4,
+    .gallery-5,
+    .gallery-6,
+    .gallery-7,
+    .gallery-8 {
+        width: 400px;
+        height: 100px;
+        margin-right: 20%;
+        background-size: cover;
+
+    }
+
+    .gallery-1 p,
+    .gallery-2 p,
+    .gallery-3 p,
+    .gallery-4 p,
+    .gallery-5 p,
+    .gallery-6 p,
+    .gallery-7 p,
+    .gallery-8 p {
+        width: 40px;
+        border: solid black 1px;
+        color: red;
+        height: 10px;
+        display: none;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        height: 400px;
+        display: block;
+        width: 105%;
+        margin-right: 30px;
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Josefin Sans', sans-serif;
+        gap: 15px;
+        margin-left: 35%;
+        font-size: 13px;
+    }
+
+    .logos2 {
+        display: flex;
+        flex-direction: row;
+        width: 160px;
+        padding-right: 10px;
+
+    }
+
+    .icon2 {
+        padding-left: 12%;
+    }
+
+    .td2021 {
+        padding-left: 30%;
+    }
+
+}
